@@ -26,6 +26,14 @@
   margin: 0;
 }
 
+@font-face {
+    font-family: 'nimbus_sans_lregular';
+    src: url('fonts/nimbus-sans-l.regular-webfont.woff2') format('woff2'),
+         url('fonts/nimbus-sans-l.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -33,7 +41,7 @@ body {
   grid-template-areas: 
   "sidebar header"
   "sidebar main";
-  font-family: "Helvetica", "monospace", "sans-serif", "serif"; 
+  font-family: "nimbus_sans_lregular", "Helvetica", "monospace", "sans-serif", "serif"; 
   font-size: 16px;
   line-height: 1.3;
 }
