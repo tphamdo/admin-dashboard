@@ -41,7 +41,7 @@ body {
   grid-template-areas: 
   "sidebar header"
   "sidebar main";
-  font-family: "nimbus_sans_lregular", "Helvetica", "monospace", "sans-serif", "serif"; 
+  font-family: "Helvetica", "nimbus_sans_lregular", "monospace", "sans-serif", "serif"; 
   font-size: 16px;
   line-height: 1.3;
 }
