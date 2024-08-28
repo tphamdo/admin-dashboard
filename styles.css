@@ -34,6 +34,10 @@
     font-style: normal;
 }
 
+body, input, textarea, button {
+  font-family: "Helvetica", "nimbus_sans_lregular", "monospace", "sans-serif", "serif"; 
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -41,7 +45,6 @@ body {
   grid-template-areas: 
   "sidebar header"
   "sidebar main";
-  font-family: "Helvetica", "nimbus_sans_lregular", "monospace", "sans-serif", "serif"; 
   font-size: 16px;
   line-height: 1.3;
 }
